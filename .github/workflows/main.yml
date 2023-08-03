@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: MohcineTor/hello-world-composite-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'TOR Mohcine'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
